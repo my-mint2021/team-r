@@ -24,3 +24,88 @@
 		display: block;
 	}
 }
+
+
+._icon-1 .path1:before {
+  content: "\e900";
+  color: rgb(0, 239, 24);
+}
+._icon-1 .path2:before {
+  content: "\e901";
+  margin-left: -1em;
+  color: rgb(18, 18, 18);
+}
+._icon-2 .path1:before {
+  content: "\e902";
+  color: rgb(0, 239, 24);
+}
+._icon-2 .path2:before {
+  content: "\e903";
+  margin-left: -1em;
+  color: rgb(18, 18, 18);
+}
+._icon-3 .path1:before {
+  content: "\e904";
+  color: rgb(0, 239, 24);
+}
+._icon-3 .path2:before {
+  content: "\e905";
+  margin-left: -1em;
+  color: rgb(18, 18, 18);
+}
+._icon-4 .path1:before {
+  content: "\e906";
+  color: rgb(0, 239, 24);
+}
+._icon-4 .path2:before {
+  content: "\e907";
+  margin-left: -1em;
+  color: rgb(18, 18, 18);
+}
+._icon-5 .path1:before {
+  content: "\e908";
+  color: rgb(0, 239, 24);
+}
+._icon-5 .path2:before {
+  content: "\e909";
+  margin-left: -1em;
+  color: rgb(18, 18, 18);
+}
+._icon-6 .path1:before {
+  content: "\e90a";
+  color: rgb(0, 239, 24);
+}
+._icon-6 .path2:before {
+  content: "\e90b";
+  margin-left: -1em;
+  color: rgb(18, 18, 18);
+}
+._icon-insta:before {
+  content: "\e90c";
+  color: #fff;
+}
+._icon-left .path1:before {
+  content: "\e90d";
+  color: rgb(1, 237, 23);
+}
+._icon-left .path2:before {
+  content: "\e90e";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+._icon-plus:before {
+  content: "\e90f";
+}
+._icon-right .path1:before {
+  content: "\e910";
+  color: rgb(1, 237, 23);
+}
+._icon-right .path2:before {
+  content: "\e911";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+._icon-vk:before {
+  content: "\e912";
+  color: #fff;
+}
