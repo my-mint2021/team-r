@@ -256,7 +256,7 @@ h6 {
 }
 
 body {
-  color: #000;
+  color: #121212;
 }
 
 body._lock {
@@ -277,8 +277,9 @@ body._lock {
 }
 
 ._container {
-  max-width: 1110px;
+  max-width: 1140px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 .btn {
@@ -1042,6 +1043,16 @@ body.ie ._ibg img {
   background: url("../img/icons/close.svg") 0 0 no-repeat;
 }
 
+.header {
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+}
+
+.header__content {
+  min-height: calc(100vh - 100px);
+}
+
 .btn {
   font-family: "Bebas Neue";
   font-style: normal;
@@ -1049,6 +1060,10 @@ body.ie ._ibg img {
   font-size: 20px;
   text-transform: uppercase;
   color: #292929;
+  background-color: #00EF18;
+  -webkit-box-shadow: 0px 12px 15px -7px rgba(0, 234, 65, 0.31);
+          box-shadow: 0px 12px 15px -7px rgba(0, 234, 65, 0.31);
+  border: none;
 }
 
 .menu__body {
@@ -1058,7 +1073,7 @@ body.ie ._ibg img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  height: 100px;
+  min-height: 100px;
   background-color: transparent;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -1069,24 +1084,30 @@ body.ie ._ibg img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 63.0630630631%;
+          flex: 0 1 63.0630630631%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
-.menu__item:not(:last-child) {
-  margin-right: 90px;
+.menu__item {
+  margin: 0 3px;
+  padding: 5px 0;
 }
 
 .menu__link {
   color: #2B2B2B;
   font-size: 14px;
+  font-weight: 500;
   text-transform: uppercase;
 }
 
 .menu__btn {
   padding: 12px 20px;
-  background-color: #00EF18;
-  -webkit-box-shadow: 0px 12px 15px -7px rgba(0, 234, 65, 0.31);
-          box-shadow: 0px 12px 15px -7px rgba(0, 234, 65, 0.31);
-  border: none;
   border-radius: 29px;
   font-size: 16px;
   line-height: 1;
@@ -1123,7 +1144,7 @@ body.ie ._ibg img {
   }
 }
 
-@media (max-width: 1122px) {
+@media (max-width: 1152px) {
   ._container {
     max-width: 970px;
   }
